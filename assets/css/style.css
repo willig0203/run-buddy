@@ -48,8 +48,7 @@ footer {
     width: 100%;
     padding: 40px 35px;
 }
-footer h2 {
-    
+footer h2 {    
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -85,20 +84,19 @@ footer a {
   color: #fff;
   font-size: 18px;
   line-height: 1.3;
-}
-.hero-cta{
   font-style: italic;
   font-size: 55px;
   color: #fce138;
 }
 .section-title{
     font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;    
+    color: #024e76; 
     border-color: #fce138;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px; 
+    text-align: center;
+    margin: 0 auto 35px;
+    width: 50%;
 }
 .primary-border{
     border-color: #fce138;
@@ -106,11 +104,17 @@ footer a {
 .secondary-border{
 border-color: #39a6b2;
 }
-.intro{
-    text-align: center;
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
 }
+
 .steps{
-    text-align: center;
     background: #fce138;
 }
 .steps h2{
@@ -140,25 +144,12 @@ border-color: #39a6b2;
 .steps span {
     font-size: 38px;
 }
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-  }
-  
-  .primary-border {
+.primary-border {
     border-color: #fce138;
   }
   
   .secondary-border {
     border-color: #39a6b2;
-  }
-  
-  .trainers {
-    text-align: center;
   }
   
   .trainer {
@@ -204,10 +195,12 @@ border-color: #39a6b2;
     text-align: right;
   }
   
+  .flex-row {
+    display: flex;
+  }
   
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
   }
   
@@ -247,3 +240,4 @@ border-color: #39a6b2;
   }
   
   /* REACH OUT STYLES END */
+  
