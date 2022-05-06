@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Gary Williams]
+
+# Run Buddy Inc.
